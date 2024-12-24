@@ -1,0 +1,39 @@
+{
+    "project_info": {
+      "project_number": "1020719981582",
+      "project_id": "mytal-app",
+      "storage_bucket": "mytal-app.appspot.com"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:1020719981582:android:9cb35ca6150101a78a885f",
+          "android_client_info": {
+            "package_name": "app.mytal"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "1020719981582-fmie0anp8qc9913ugj8usival53k9lvk.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyBNgEzPfAtbX5gclzQLsYecIkHsAQo103c"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "1020719981582-fmie0anp8qc9913ugj8usival53k9lvk.apps.googleusercontent.com",
+                "client_type": 3
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }
