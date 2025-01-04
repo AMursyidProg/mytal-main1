@@ -30,7 +30,7 @@ class LoginScreenState extends State<LoginScreen> {
   int _currentCarousel = 0;
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
-  final CarouselController _carouselController = CarouselController();
+  final CarouselSliderController _carouselController = CarouselSliderController();
   final _formKey = GlobalKey<FormState>();
   bool _obscureText = true;
   bool _isLoggingIn = false;

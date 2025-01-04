@@ -32,6 +32,7 @@ class ComplicationsTabView extends StatelessWidget {
                 labelColor: Colors.white,
                 indicatorSize: TabBarIndicatorSize.label,
                 indicator: BoxDecoration(borderRadius: BorderRadius.circular(100), color: AppColors.color(context, 500)),
+                dividerColor: Colors.transparent,
                 tabs: [
                   Tab(
                     child: Container(

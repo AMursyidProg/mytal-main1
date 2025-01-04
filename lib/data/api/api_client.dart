@@ -1164,7 +1164,7 @@ final adminMriProvider =
     FutureProvider.autoDispose.family<MriResponse, String>((ref, id) async {
   http.Response response = await GetIt.I
       .get<ApiClient>()
-      .getData('{AppConstants.adminMriUri}', query: {
+      .getData(AppConstants.adminMriUri, query: {
     "id": id,
     "orderBy": "dateStarted",
     "descending": true,

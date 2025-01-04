@@ -24,7 +24,7 @@ class ResourceCard {
 
 class DoctorDashboardScreenState extends State<MinisterDashboardScreen> {
   int _currentCarousel = 0;
-  final CarouselController _carouselController = CarouselController();
+  final CarouselSliderController _carouselController = CarouselSliderController();
   final ScrollController _scrollController = ScrollController();
   final List<ResourceCard> resources = [
     ResourceCard(image: "assets/images/blood.jpg", title: "About Thalassaemia", screen: const AboutThalassaemiaScreen()),
